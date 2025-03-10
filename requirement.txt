@@ -1,14 +1,7 @@
- time
- matplotlib.pylab import place
- streamlit as st
- pandas as pd
- numpy as np
- plotly.graph_objects as go
- plotly.express as px
- sklearn.ensemble import RandomForestRegressor  # type: ignore 
- sklearn.model_selection import train_test_split  # type: ignore 
- datetime import datetime, timedelta
- folium
- streamlit_folium import folium_static
- geopy.geocoders import Nominatim
- requests
+streamlit
+numpy
+pandas
+scikit-learn
+matplotlib
+seaborn
+requests
