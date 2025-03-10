@@ -3,7 +3,6 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 from datetime import datetime, timedelta
-from geopy.geocoders import Nominatim
 import requests
 
 # Set page config
