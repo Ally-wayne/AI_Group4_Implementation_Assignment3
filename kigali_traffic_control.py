@@ -2,8 +2,6 @@ import time
 import streamlit as st
 import pandas as pd
 import numpy as np
-from sklearn.ensemble import RandomForestRegressor  # type: ignore # ✅ Add this line
-from sklearn.model_selection import train_test_split  # type: ignore # ✅ Add this line
 from datetime import datetime, timedelta
 import folium
 from streamlit_folium import folium_static
