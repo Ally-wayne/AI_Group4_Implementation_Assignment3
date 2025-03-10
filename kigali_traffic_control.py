@@ -2,8 +2,6 @@ import time
 import streamlit as st
 import pandas as pd
 import numpy as np
-import plotly.graph_objects as go
-import plotly.express as px
 from sklearn.ensemble import RandomForestRegressor  # type: ignore # ✅ Add this line
 from sklearn.model_selection import train_test_split  # type: ignore # ✅ Add this line
 from datetime import datetime, timedelta
