@@ -1,7 +1,10 @@
 streamlit
-numpy
 pandas
+numpy
+plotly
 scikit-learn
-matplotlib
-seaborn
+folium
+streamlit-folium
+geopy
 requests
+matplotlib
