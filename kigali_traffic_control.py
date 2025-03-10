@@ -1,8 +1,16 @@
 import time
+from matplotlib.pylab import place
 import streamlit as st
 import pandas as pd
 import numpy as np
+import plotly.graph_objects as go
+import plotly.express as px
+from sklearn.ensemble import RandomForestRegressor  
+from sklearn.model_selection import train_test_split  
 from datetime import datetime, timedelta
+import folium
+from streamlit_folium import folium_static
+from geopy.geocoders import Nominatim
 import requests
 
 # Set page config
