@@ -3,8 +3,6 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 from datetime import datetime, timedelta
-import folium
-from streamlit_folium import folium_static
 from geopy.geocoders import Nominatim
 import requests
 
